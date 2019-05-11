@@ -11,5 +11,5 @@ import lombok.RequiredArgsConstructor;
 public class Bean {
 	@NonNull
 	private String id,className;
-	private List<Property> propertyList;
+	private List<Property> propertyList;//属性集合
 }
